@@ -15,8 +15,8 @@ module Pageflow
 
     def outputs
       [
-        transferable(webm_high_definition),
-        transferable(webm_medium_definition),
+        # transferable(webm_high_definition),
+        # transferable(webm_medium_definition),
         transferable(mp4_high_definition),
         transferable(mp4_medium_definition),
         transferable(mp4_low_definition),
