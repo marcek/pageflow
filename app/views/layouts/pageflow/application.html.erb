@@ -19,6 +19,7 @@
   <%= render 'layouts/pageflow/loading_spinner_inline_script' %>
 
   <%= render 'layouts/pageflow/ie_include_tags' %>
+  <meta name="app-data" content="kulturkenner-story" data-tag="v0.10.3-skip-webm-video-format" />
 </head>
 <%= content_tag :body, :class => [@body_class, 'load_all_images has_no_mobile_platform non_js'].compact.flatten.join(' ') do %>
   <script>
